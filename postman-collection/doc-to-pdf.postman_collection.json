@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "21d52248-3cae-411e-82b2-d20112dd3a17",
+		"name": "doc-to-pdf",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8656723"
+	},
+	"item": [
+		{
+			"name": "localhost:5000",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "inputfile",
+							"type": "file",
+							"src": "/C:/Users/SURAJ/Downloads/Web Service Uing Ajax in .net.docx"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:5000",
+					"host": [
+						"localhost"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		}
+	]
+}
